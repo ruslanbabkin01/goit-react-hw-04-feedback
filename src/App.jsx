@@ -1,6 +1,11 @@
-import { Feedback, Section, Statistics, Notification } from './index';
+import {
+  Feedback,
+  Section,
+  Statistics,
+  Notification,
+} from './components/index.js';
 import { useState } from 'react';
-import { Box } from '../styles/Box';
+import { Box } from './styles/Box';
 
 export function App() {
   const [good, setGood] = useState(0);
