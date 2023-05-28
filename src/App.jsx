@@ -40,7 +40,7 @@ export function App() {
   const positivePercentage = countPositiveFeedbackPercentage(good, total);
 
   return (
-    <Box mx="auto" width="320px">
+    <Box as="main" mx="auto" width="320px">
       <Section title="Please leave feedback">
         <Feedback
           options={['good', 'neutral', 'bad']}
